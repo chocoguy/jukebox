@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #56c5ff;
+  background: linear-gradient(0deg, rgba(86, 197, 255, 0) 0%, white 20%);
+}
+
+body {
+  background: no-repeat fixed center center/cover;
+  background-image: url("./img/DecaHexBackground.png");
+}
+
+.main {
+  position: absolute;
+  top: 40%;
+  left: 26%;
+  border-radius: 23px;
+  width: 920px;
+  height: 517px;
+  background-color: rgba(255,255,255, 0.43)
+}
+
+.main-contain{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.65fr 1fr;
+}
+
+.main-contain-1 img{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 310px;
+  height: 310px;
+}
+
+.main-contain-2{
+  margin-top: 30px;
+}
+.main-contain-2 h1{
+  font-size: 45px;
+}
+.main-contain-2 h2{
+  margin-left: 10px;
+  font-size: 35px;
+}
+.main-contain-2 h3{
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.progress-background{
+  margin-top: 20px;
+  border: solid black 3px;
+  width: 500px;
+}
+
+.flex-1{
+  margin-top: 20px;
+  display: flex;
+}
+
+.flex-1{
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.btns{
+  margin-left: 100px;
+}
+
+.player .progress {
+  height: 8px;
+  width: 495px;;
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+.tabs{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(174,174,174,.59);
+}
+
+.tabs img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.tab-item{
+  opacity: 0.6;
+}
+
+.color{
+  opacity: 1;
+}
+
+
+#tab-1-content{
+  display: none;
+}
+
+
+#tab-2-content{
+  display: none;
+}
+
+
+
+#tab-3-content{
+  display: none;
+}
+
+
+
+#tab-4-content{
+  display: none;
+}
+
+#tab-5-content{
+  display: none;
+}
+
+#tab-6-content{
+  display: none;
+}
+
+#tab-7-content{
+  display: none;
+}
+
+#tab-8-content{
+  display: none;
+}
+
+#tab-9-content{
+  display: none;
+}
+
+#tab-10-content{
+  display: none;
+}
+
+#tab-11-content{
+  display: none;
+}
+
+#tab-12-content{
+  display: none;
+}
+
+#tab-13-content{
+  display: none;
+}
+
+#tab-14-content{
+  display: none;
+}
+
+#tab-15-content{
+  display: none;
+}
+
+
+.show{
+  display: block !important;
+}
+
+
+.up-down{
+transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+/*! ANIMEJS */
+
+
+.spec{
+  background-color: #FFF;
+  height: 30px;
+  width: 100px;
+  margin-top: 40px;
+}
+
+.spec-1{
+  margin-top: 1000px;
+}
+
+.box-test{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */

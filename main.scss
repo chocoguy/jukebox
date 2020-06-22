@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(86,197,255);
+    background: linear-gradient(0deg, rgba(86,197,255,0) 0%, rgba(255,255,255,1) 20%);
+}
+
+body{
+    background: no-repeat fixed center center/cover;
+    height: 100vh;
+    background-image: url('./img/DecaHexBackground.png');
+}
+
+.main{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    width: 920px;
+    height: 517px;
+    background-color: rgba(255,255,255, 0.43)
+}
+
+
+.player {
+ 
+  .progress {
+    position: absolute;
+    height: 2px;
+    left: 0;
+    top: 0;
+    background-color: #00a8ff;
+  }
+}
+
+
+
+
+

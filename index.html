@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+    <title>JukeBox</title>
+</head>
+<body>
+    <nav>
+        <h1>DecaHex</h1>
+        <h1>Music</h1>
+        <h1>Made with AnimeJS</h1>
+    </nav>
+    
+   
+
+    <div class="up-down">
+ <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <!--BREAKPOINT-->
+    <div class="spec spec-1"></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    <div class="spec "></div>
+    </div>
+
+
+
+    <div class="main">
+    <div id="tab-1-content" class="tab-content-item show">
+    <div class="main-contain">
+    <!--START AUDIO PLAYER-->
+    <div class = "main-contain-1">
+        <audio src="https://storage.googleapis.com/decahex-main/moBamba.mp3"></audio>
+        <img src="img/thumbmo.png" alt="coverart">
+    </div>
+    <div class="main-contain-2">
+        <div class="player">
+           <div class="info">
+               <div class="name"><h1>Mo Bamba</h1></div>
+               <div class="singer"><h2>Sheck Wes</h2></div>
+               <div class="album"><h3>Regex4Life</h3></div>
+            </div>
+            <div class="progress-background">
+            <div class="progress"></div>
+            <div id="progress" value="0" min="0">
+                <span id="progress-bar"></span>
+            </div> 
+            </div>
+            <div class="flex-1">
+            <div class="current-time"><p>0:00</p></div>
+            <p>/</p>
+            <div class="song-length"><p>0:00</p></div>
+            <div class="btns">
+                <i class="fas fa-play play-pause"></i>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <div id="tab-2-content" class="tab-content-item">
+    <div class="main-contain">
+        <!--START AUDIO PLAYER-->
+        <div class = "main-contain-1">
+            <audio class=".continue" src="https://storage.googleapis.com/decahex-main/plan.mp3"></audio>
+            <img src="img/godplanthumb.png" alt="coverart">
+        </div>
+        <div class="main-contain-2">
+            <div class="player">
+               <div class="info">
+                   <div class="name"><h1>God's Plan</h1></div>
+                   <div class="singer"><h2>Drake</h2></div>
+                   <div class="album"><h3>Scorpion</h3></div>
+                </div>
+                <div class="progress-background">
+                <div class="progress"></div>
+                <div id="progress" value="0" min="0">
+                    <span id="progress-bar"></span>
+                </div> 
+                </div>
+                <div class="flex-1">
+                <div class="current-time-2"><p>0:00</p></div>
+                <p>/</p>
+                <div class="song-length-2"><p>0:00</p></div>
+                <div class="btns">
+                    <i class="fas fa-play play-pause"></i>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+        <div id="tab-3-content" class="tab-content-item">
+        <div class="main-contain">
+            <!--START AUDIO PLAYER-->
+            <div class = "main-contain-1">
+                <audio src="https://storage.googleapis.com/decahex-main/slobKnob.mp3"></audio>
+                <img src="img/slobknobthumb.png" alt="coverart">
+            </div>
+            <div class="main-contain-2">
+                <div class="player">
+                   <div class="info">
+                       <div class="name"><h1>Slob on My Knob</h1></div>
+                       <div class="singer"><h2>Three6Mafia</h2></div>
+                       <div class="album"><h3>Last2Walk</h3></div>
+                    </div>
+                    <div class="progress-background">
+                    <div class="progress"></div>
+                    <div id="progress" value="0" min="0">
+                        <span id="progress-bar"></span>
+                    </div> 
+                    </div>
+                    <div class="flex-1">
+                    <div class="current-time-3"><p>0:00</p></div>
+                    <p>/</p>
+                    <div class="song-length-3"><p>0:00</p></div>
+                    <div class="btns">
+                        <i class="fas fa-play play-pause"></i>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+            <div id="tab-4-content" class="tab-content-item">
+            <div class="main-contain">
+                <!--START AUDIO PLAYER-->
+                <div class = "main-contain-1">
+                    <audio src="https://storage.googleapis.com/decahex-main/win7.mp3"></audio>
+                    <img src="img/win7thumb.jpg" alt="coverart">
+                </div>
+                <div class="main-contain-2">
+                    <div class="player">
+                       <div class="info">
+                           <div class="name"><h1>Windows 7 EArrape</h1></div>
+                           <div class="singer"><h2>Microsoft</h2></div>
+                           <div class="album"><h3>Win7</h3></div>
+                        </div>
+                        <div class="progress-background">
+                        <div class="progress"></div>
+                        <div id="progress" value="0" min="0">
+                            <span id="progress-bar"></span>
+                        </div> 
+                        </div>
+                        <div class="flex-1">
+                        <div class="current-time-4"><p>0:00</p></div>
+                        <p>/</p>
+                        <div class="song-length-4"><p>0:00</p></div>
+                        <div class="btns">
+                            <i class="fas fa-play play-pause"></i>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="tab-5-content" class="tab-content-item">
+                <div class="main-contain">
+                    <!--START AUDIO PLAYER-->
+                    <div class = "main-contain-1">
+                        <audio src="https://storage.googleapis.com/decahex-main/nightside.mp3"></audio>
+                        <img src="img/nightTape.png" alt="coverart">
+                    </div>
+                    <div class="main-contain-2">
+                        <div class="player">
+                           <div class="info">
+                               <div class="name"><h1>Night Side</h1></div>
+                               <div class="singer"><h2>Night Tempo</h2></div>
+                               <div class="album"><h3>Nighty Tape</h3></div>
+                            </div>
+                            <div class="progress-background">
+                            <div class="progress"></div>
+                            <div id="progress" value="0" min="0">
+                                <span id="progress-bar"></span>
+                            </div> 
+                            </div>
+                            <div class="flex-1">
+                            <div class="current-time-5"><p>0:00</p></div>
+                            <p>/</p>
+                            <div class="song-length-5"><p>0:00</p></div>
+                            <div class="btns">
+                                <i class="fas fa-play play-pause"></i>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="tab-6-content" class="tab-content-item">
+                    <div class="main-contain">
+                        <!--START AUDIO PLAYER-->
+                        <div class = "main-contain-1">
+                            <audio src="https://storage.googleapis.com/decahex-main/aogashima.mp3"></audio>
+                            <img src="img/sailorwave.png" alt="coverart">
+                        </div>
+                        <div class="main-contain-2">
+                            <div class="player">
+                               <div class="info">
+                                   <div class="name"><h1>Aogashima Island!</h1></div>
+                                   <div class="singer"><h2>MACROSS 82-99</h2></div>
+                                   <div class="album"><h3>SAILORWAVE II</h3></div>
+                                </div>
+                                <div class="progress-background">
+                                <div class="progress"></div>
+                                <div id="progress" value="0" min="0">
+                                    <span id="progress-bar"></span>
+                                </div> 
+                                </div>
+                                <div class="flex-1">
+                                <div class="current-time-6"><p>0:00</p></div>
+                                <p>/</p>
+                                <div class="song-length-6"><p>0:00</p></div>
+                                <div class="btns">
+                                    <i class="fas fa-play play-pause"></i>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div id="tab-7-content" class="tab-content-item">
+                        <div class="main-contain">
+                            <!--START AUDIO PLAYER-->
+                            <div class = "main-contain-1">
+                                <audio src="https://storage.googleapis.com/decahex-main/inthemoon.mp3"></audio>
+                                <img src="img/babybaby.jpg" alt="coverart">
+                            </div>
+                            <div class="main-contain-2">
+                                <div class="player">
+                                   <div class="info">
+                                       <div class="name"><h1>In The Moon</h1></div>
+                                       <div class="singer"><h2>Night Tempo</h2></div>
+                                       <div class="album"><h3>Babymaker 2</h3></div>
+                                    </div>
+                                    <div class="progress-background">
+                                    <div class="progress"></div>
+                                    <div id="progress" value="0" min="0">
+                                        <span id="progress-bar"></span>
+                                    </div> 
+                                    </div>
+                                    <div class="flex-1">
+                                    <div class="current-time-7"><p>0:00</p></div>
+                                    <p>/</p>
+                                    <div class="song-length-7"><p>0:00</p></div>
+                                    <div class="btns">
+                                        <i class="fas fa-play play-pause"></i>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="tab-8-content" class="tab-content-item">
+                            <div class="main-contain">
+                                <!--START AUDIO PLAYER-->
+                                <div class = "main-contain-1">
+                                    <audio src="https://storage.googleapis.com/decahex-main/magic.mp3"></audio>
+                                    <img src="img/babybaby.jpg" alt="coverart">
+                                </div>
+                                <div class="main-contain-2">
+                                    <div class="player">
+                                       <div class="info">
+                                           <div class="name"><h1>Magic</h1></div>
+                                           <div class="singer"><h2>Night Tempo</h2></div>
+                                           <div class="album"><h3>Babymaker 2</h3></div>
+                                        </div>
+                                        <div class="progress-background">
+                                        <div class="progress"></div>
+                                        <div id="progress" value="0" min="0">
+                                            <span id="progress-bar"></span>
+                                        </div> 
+                                        </div>
+                                        <div class="flex-1">
+                                        <div class="current-time-8"><p>0:00</p></div>
+                                        <p>/</p>
+                                        <div class="song-length-8"><p>0:00</p></div>
+                                        <div class="btns">
+                                            <i class="fas fa-play play-pause"></i>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div id="tab-9-content" class="tab-content-item">
+                                <div class="main-contain">
+                                    <!--START AUDIO PLAYER-->
+                                    <div class = "main-contain-1">
+                                        <audio src="https://storage.googleapis.com/decahex-main/pixelbomb.mp3"></audio>
+                                        <img src="img/shibuya.jpg" alt="coverart">
+                                    </div>
+                                    <div class="main-contain-2">
+                                        <div class="player">
+                                           <div class="info">
+                                               <div class="name"><h1>Pixel Bomb</h1></div>
+                                               <div class="singer"><h2>MACROSS 82-99</h2></div>
+                                               <div class="album"><h3>Shibuya Meltdown</h3></div>
+                                            </div>
+                                            <div class="progress-background">
+                                            <div class="progress"></div>
+                                            <div id="progress" value="0" min="0">
+                                                <span id="progress-bar"></span>
+                                            </div> 
+                                            </div>
+                                            <div class="flex-1">
+                                            <div class="current-time-9"><p>0:00</p></div>
+                                            <p>/</p>
+                                            <div class="song-length-9"><p>0:00</p></div>
+                                            <div class="btns">
+                                                <i class="fas fa-play play-pause"></i>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div id="tab-10-content" class="tab-content-item">
+                                    <div class="main-contain">
+                                        <!--START AUDIO PLAYER-->
+                                        <div class = "main-contain-1">
+                                            <audio src="https://storage.googleapis.com/decahex-main/sakura.mp3"></audio>
+                                            <img src="img/sailorwave.png" alt="coverart">
+                                        </div>
+                                        <div class="main-contain-2">
+                                            <div class="player">
+                                               <div class="info">
+                                                   <div class="name"><h1>Sakura</h1></div>
+                                                   <div class="singer"><h2>MACROSS 82-99</h2></div>
+                                                   <div class="album"><h3>SAILORWAVE II</h3></div>
+                                                </div>
+                                                <div class="progress-background">
+                                                <div class="progress"></div>
+                                                <div id="progress" value="0" min="0">
+                                                    <span id="progress-bar"></span>
+                                                </div> 
+                                                </div>
+                                                <div class="flex-1">
+                                                <div class="current-time-10"><p>0:00</p></div>
+                                                <p>/</p>
+                                                <div class="song-length-10"><p>0:00</p></div>
+                                                <div class="btns">
+                                                    <i class="fas fa-play play-pause"></i>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div id="tab-11-content" class="tab-content-item">
+                                        <div class="main-contain">
+                                            <!--START AUDIO PLAYER-->
+                                            <div class = "main-contain-1">
+                                                <audio src="https://storage.googleapis.com/decahex-main/staypure.mp3"></audio>
+                                                <img src="img/babybaby.jpg" alt="coverart">
+                                            </div>
+                                            <div class="main-contain-2">
+                                                <div class="player">
+                                                   <div class="info">
+                                                       <div class="name"><h1>Stay Pure</h1></div>
+                                                       <div class="singer"><h2>Night Tempo</h2></div>
+                                                       <div class="album"><h3>Babymaker 2</h3></div>
+                                                    </div>
+                                                    <div class="progress-background">
+                                                    <div class="progress"></div>
+                                                    <div id="progress" value="0" min="0">
+                                                        <span id="progress-bar"></span>
+                                                    </div> 
+                                                    </div>
+                                                    <div class="flex-1">
+                                                    <div class="current-time-11"><p>0:00</p></div>
+                                                    <p>/</p>
+                                                    <div class="song-length-11"><p>0:00</p></div>
+                                                    <div class="btns">
+                                                        <i class="fas fa-play play-pause"></i>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div id="tab-12-content" class="tab-content-item">
+                                            <div class="main-contain">
+                                                <!--START AUDIO PLAYER-->
+                                                <div class = "main-contain-1">
+                                                    <audio src="https://storage.googleapis.com/decahex-main/baecityrollaz.mp3"></audio>
+                                                    <img src="img/bae.jpg" alt="coverart">
+                                                </div>
+                                                <div class="main-contain-2">
+                                                    <div class="player">
+                                                       <div class="info">
+                                                           <div class="name"><h1>Bae City Rollaz</h1></div>
+                                                           <div class="singer"><h2>YUNG BAE</h2></div>
+                                                           <div class="album"><h3>Bae</h3></div>
+                                                        </div>
+                                                        <div class="progress-background">
+                                                        <div class="progress"></div>
+                                                        <div id="progress" value="0" min="0">
+                                                            <span id="progress-bar"></span>
+                                                        </div> 
+                                                        </div>
+                                                        <div class="flex-1">
+                                                        <div class="current-time-12"><p>0:00</p></div>
+                                                        <p>/</p>
+                                                        <div class="song-length-12"><p>0:00</p></div>
+                                                        <div class="btns">
+                                                            <i class="fas fa-play play-pause"></i>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+                                            <div id="tab-13-content" class="tab-content-item">
+                                                <div class="main-contain">
+                                                    <!--START AUDIO PLAYER-->
+                                                    <div class = "main-contain-1">
+                                                        <audio src="https://storage.googleapis.com/decahex-main/destiny.mp3"></audio>
+                                                        <img src="img/fantasy.png" alt="coverart">
+                                                    </div>
+                                                    <div class="main-contain-2">
+                                                        <div class="player">
+                                                           <div class="info">
+                                                               <div class="name"><h1>Destiny</h1></div>
+                                                               <div class="singer"><h2>Night Tempo</h2></div>
+                                                               <div class="album"><h3>Fantasy</h3></div>
+                                                            </div>
+                                                            <div class="progress-background">
+                                                            <div class="progress"></div>
+                                                            <div id="progress" value="0" min="0">
+                                                                <span id="progress-bar"></span>
+                                                            </div> 
+                                                            </div>
+                                                            <div class="flex-1">
+                                                            <div class="current-time-13"><p>0:00</p></div>
+                                                            <p>/</p>
+                                                            <div class="song-length-13"><p>0:00</p></div>
+                                                            <div class="btns">
+                                                                <i class="fas fa-play play-pause"></i>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+                                                <div id="tab-14-content" class="tab-content-item">
+                                                    <div class="main-contain">
+                                                        <!--START AUDIO PLAYER-->
+                                                        <div class = "main-contain-1">
+                                                            <audio src="https://storage.googleapis.com/decahex-main/tokyobounce.mp3"></audio>
+                                                            <img src="img/shibuya.jpg" alt="coverart">
+                                                        </div>
+                                                        <div class="main-contain-2">
+                                                            <div class="player">
+                                                               <div class="info">
+                                                                   <div class="name"><h1>Tokyo Bounce</h1></div>
+                                                                   <div class="singer"><h2>MACROSS 82-99</h2></div>
+                                                                   <div class="album"><h3>Shibuya Meltdown</h3></div>
+                                                                </div>
+                                                                <div class="progress-background">
+                                                                <div class="progress"></div>
+                                                                <div id="progress" value="0" min="0">
+                                                                    <span id="progress-bar"></span>
+                                                                </div> 
+                                                                </div>
+                                                                <div class="flex-1">
+                                                                <div class="current-time-14"><p>0:00</p></div>
+                                                                <p>/</p>
+                                                                <div class="song-length-14"><p>0:00</p></div>
+                                                                <div class="btns">
+                                                                    <i class="fas fa-play play-pause"></i>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    
+                                                <div id="tab-15-content" class="tab-content-item">
+                                                    <div class="main-contain">
+                                                        <!--START AUDIO PLAYER-->
+                                                        <div class = "main-contain-1">
+                                                            <audio src="https://storage.googleapis.com/decahex-main/usagifunk.mp3"></audio>
+                                                            <img src="img/fantasy.png" alt="coverart">
+                                                        </div>
+                                                        <div class="main-contain-2">
+                                                            <div class="player">
+                                                               <div class="info">
+                                                                   <div class="name"><h1>Usagi Funk</h1></div>
+                                                                   <div class="singer"><h2>Night Tempo</h2></div>
+                                                                   <div class="album"><h3>Fantasy</h3></div>
+                                                                </div>
+                                                                <div class="progress-background">
+                                                                <div class="progress"></div>
+                                                                <div id="progress" value="0" min="0">
+                                                                    <span id="progress-bar"></span>
+                                                                </div> 
+                                                                </div>
+                                                                <div class="flex-1">
+                                                                <div class="current-time-15"><p>0:00</p></div>
+                                                                <p>/</p>
+                                                                <div class="song-length-15"><p>0:00</p></div>
+                                                                <div class="btns">
+                                                                    <i class="fas fa-play play-pause"></i>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="center tabs">
+        <div id="tab-1" class="tab-item color mobamba"><img src="./img/thumbmo.png" alt="album art"><p>Mo Bamba</p></div>
+        <div id="tab-2" class="tab-item godsplan"><img src="./img/godplanthumb.png" alt="album art"><p>God's Plan</p></div>
+        <div id="tab-3" class="tab-item slobonmyknob"><img src="./img/slobknobthumb.png" alt="album art"><p>Slob on My Knob</p></div>
+        <div id="tab-4" class="tab-item windows7"><img src="./img/win7thumb.jpg" alt="album art"><p>Windows 7 EArrape</p></div>
+        <div id="tab-5" class="tab-item nighttape"><img src="./img/nightTape.png" alt="album art"><p>Night Side</p></div>
+        <div id="tab-6" class="tab-item aogashima"><img src="./img/sailorwave.png" alt="album art"><p>Aogashima Island!</p></div>
+        <div id="tab-7" class="tab-item inthemoon"><img src="./img/babybaby.jpg" alt="album art"><p>In The Moon</p></div>
+        <div id="tab-8" class="tab-item magic"><img src="./img/babybaby.jpg" alt="album art"><p>Magic</p></div>
+        <div id="tab-9" class="tab-item pixelbomb"><img src="./img/shibuya.jpg" alt="album art"><p>Pixel Bomb</p></div>
+        <div id="tab-10" class="tab-item sakura"><img src="./img/sailorwave.png" alt="album art"><p>Sakura</p></div>
+        <div id="tab-11" class="tab-item staypure"><img src="./img/babybaby.jpg" alt="album art"><p>Stay Pure</p></div>
+        <div id="tab-12" class="tab-item baecityrollaz"><img src="./img/bae.jpg" alt="album art"><p>Bae City Rollaz</p></div>
+        <div id="tab-13" class="tab-item destiny"><img src="./img/fantasy.png" alt="album art"><p>Destiny</p></div>
+        <div id="tab-14" class="tab-item tokyobounce"><img src="./img/shibuya.jpg" alt="album art"><p>Tokyo Bounce</p></div>
+        <div id="tab-15" class="tab-item usagifunk"><img src="./img/fantasy.png" alt="album art"><p>Usagi Funk</p></div>
+    </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/a3f52fce79.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.center').slick({
+      centerMode: true,
+      slidesToShow: 4,
+      responsive: [
+          {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+              }
+          },
+          {
+              breakpoint: 400,
+              settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 1
+              }
+          }
+      ]
+  });
+    })
+    </script>
+</body>
+</html>
